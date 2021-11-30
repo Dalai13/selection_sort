@@ -14,10 +14,11 @@ void selectionSort(var L) {
     }
   }
 }
+
 void main() {
-  print("==============Acending order=============");
-  var lst = [8,1,77,12,67,5,19,4,7,10,100];
-  print("Before sort lst: ${lst}");
+  print('==============Acending order=============');
+  var lst = [8, 1, 77, 12, 67, 5, 19, 4, 7, 12, 100];
+  print('Before sort lst: $lst');
   selectionSort(lst);
-  print("After sort lst: ${lst}");
+  print('After sort lst: $lst');
 }
